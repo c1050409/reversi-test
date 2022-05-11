@@ -27,9 +27,7 @@ public class Move {
         this.score = score;
     }
 
-    public int getScore() {
-        return this.score;
-    }
+    public int getScore() {return score;}
 
     public ArrayList<DirectedMove> getMoves() {
         return moves;
